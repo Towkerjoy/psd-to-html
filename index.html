@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD to HTML Protfolio Website</title>
+    <link rel="icon" href="resources/img/favicon.png" type="image/gif" sizes="20x20">
+    <!-- CSS FILE -->
+    <!-- ==////== -->
+    <!-- VANDORS CSS FILE -->
+    <link rel="stylesheet" href="vandors/css/reset.css">
+    <link rel="stylesheet" href="vandors/css/normalize.css">
+    <link rel="stylesheet" href="vandors/css/grid.css">
+    <link rel="stylesheet" href="vandors/css/animated-skill.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- RESOURCES CSS FILE -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+     <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- START HEADER SECTION -->
+
+    <header>
+        <nav>
+            <div class="row">
+                <a href="#" class="site-name">Joy</a>
+                <ul class="main-nav">
+                    <li><a href="#"class="active">HOME</a></li>
+                    <li><a href="#serviecs">SERVIECS</a></li>
+                    <li><a href="#team">TEAM</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span><ion-icon name="menu-outline" onclick="openNav()"></ion-icon></span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void()" onclick="colseNav()"><ion-icon name="close-outline" class="closebtn"></ion-icon></a>
+                        <div class="overlay-content">
+                            <img src="resources/img/hamberger.jpg" alt="">
+                            <a href="#" onclick="colseNav()">HOME</a>
+                            <a href="#serviecs" onclick="colseNav()">SERVIECS</a>
+                            <a href="#team" onclick="colseNav()">TEAM</a>
+                            <a href="#skill" onclick="colseNav()">SKILL</a>
+                            <a href="#portfolio" onclick="colseNav()">PORTFOLIO</a>
+                            <a href="#contact" onclick="colseNav()">CONTACT</a>
+                            <div class="hamberger-social-link">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100024901024152" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                    <li><a href="https://github.com/towkerjoy" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                                    <li><a href="https://www.instagram.com/towker_joy" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="hero-text-box">
+                <h1 data-aos="zoom-in">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h1>
+                <a href="#" class="btn btn-hero" data-aos="fade-up">Work with Us</a>
+            </div>
+        </div>
+    </header>
+
+   <!-- END HEADER SECTION -->
+
+   <!-- START SERVIECS SECTION -->
+
+    <section class="serviecs-section js-serviecs-waypoints" id="serviecs">
+        <div class="row">
+            <h2 data-aos="zoom-in">SERVIECS WHAT WE PROVIDE</h2>
+            <p class="discription" data-aos="zoom-in-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo soluta repellat facili.</p>
+        </div>
+        <div class="row">
+        <div class="col span_1_of_4 box" data-aos="fade-left">
+            <img src="resources/img/flag.png" alt="flag" class="serviecs-icon">
+            <h3>BRANDING</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col span_1_of_4 box" data-aos="fade-right">
+            <img src="resources/img/pan.png" alt="flag" class="serviecs-icon">
+            <h3>BRANDING</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col span_1_of_4 box" data-aos="fade-left">
+            <img src="resources/img/servise.png" alt="flag" class="serviecs-icon">
+            <h3>BRANDING</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col span_1_of_4 box" data-aos="fade-right">
+            <img src="resources/img/speed.png" alt="flag" class="serviecs-icon">
+            <h3>BRANDING</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    </section>
+
+   <!-- END SERVIECS SECTION -->
+
+   <!-- START TEAM SECTION -->
+
+    <section class="team-scetion" id="team">
+        <div class="row">
+            <h2 data-aos="zoom-in">Meet your team</h2>
+            <p class="discription" data-aos="zoom-in-up">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box" data-aos="fade-down">
+                <img src="resources/img/team1.jpg" alt="" class="team-members">
+                <h3>Towker Ahmmed</h3>
+                <span class="role"> Web desing and development</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam est nam libero autem consequuntur eum minima illo aspernatur.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box" data-aos="fade-up">
+                <img src="resources/img/team1.jpg" alt="" class="team-members">
+                <h3>Towker Ahmmed</h3>
+                <span class="role"> Web desing and development</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam est nam libero autem consequuntur eum minima illo aspernatur.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box" data-aos="fade-down">
+                <img src="resources/img/team1.jpg" alt="" class="team-members">
+                <h3>Towker Ahmmed</h3>
+                <span class="role"> Web desing and development</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam est nam libero autem consequuntur eum minima illo aspernatur.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box" data-aos="fade-up">
+                <img src="resources/img/team1.jpg" alt="" class="team-members">
+                <h3>Towker Ahmmed</h3>
+                <span class="role"> Web desing and development</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam est nam libero autem consequuntur eum minima illo aspernatur.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- END TEAM SECTION -->
+   <!-- START SKILL SECTION -->
+
+    <section class="skill-section" id="skill">
+        <div class="row">
+            <h2 data-aos="zoom-in"> Our skill</h2>
+            <p class="discription" data-aos="zoom-in-up">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box" data-aos="fade-right">
+                <svg class="radial-progress web-desing" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                  </svg>
+                  <h3>Web Desing</h3>
+            </div>
+            <div class="col span_1_of_4 box" data-aos="fade-left">
+                <svg class="radial-progress html-css" data-percentage="80" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+                  </svg>
+                  <h3>Html/Css</h3>
+            </div>
+            <div class="col span_1_of_4 box" data-aos="fade-right">
+                <svg class="radial-progress javascript" data-percentage="75" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                  </svg>
+                  <h3>JavaScript</h3>
+            </div>
+            <div class="col span_1_of_4 box" data-aos="fade-left">
+                <svg class="radial-progress php" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                  </svg>
+                  <h3>PHP</h3>
+            </div>
+        </div>
+    </section>
+
+   <!-- END SKILL SECTION -->
+   <!-- START PORTFOLIO SECTION -->
+
+    <section class="portfolio-section" id="portfolio">
+        <div class="row">
+            <h2 data-aos="zoom-in"> Our Portfolio</h2>
+            <p class="discription" data-aos="zoom-in-up">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+            <div class="portfolio-fillter" data-aos="fade-down">
+                <button type="button" class="btn btn-portfolio" data-filter="all">all</button>
+                <button type="button" class="btn btn-portfolio" data-filter=".web">Web</button>
+                <button type="button" class="btn btn-portfolio" data-filter=".apps">apps</button>
+                <button type="button" class="btn btn-portfolio" data-filter=".graphic">graphic</button>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col span_1_of_2 box mix web apps" data-aos="fade-right">
+                <img src="resources/img/potfolio-1.png" class="porfolio-img" alt="">
+                <h4>Lorem ipsum dolor sit .</h4>
+            </div>
+            <div class="col span_1_of_2 box mix web icon" data-aos="fade-left">
+                <img src="resources/img/potfolio-2.png" class="porfolio-img" alt="">
+                <h4>Lorem ipsum dolor sit .</h4>
+            </div>
+            <div class="col span_1_of_2 box mix icon graphic" data-aos="fade-right">
+                <img src="resources/img/potfolio-3.png" class="porfolio-img" alt="">
+                <h4>Lorem ipsum dolor sit .</h4>
+            </div>
+            <div class="col span_1_of_2 box mix graphic apps" data-aos="fade-left">
+                <img src="resources/img/potfolio-4.png" class="porfolio-img" alt="">
+                <h4>Lorem ipsum dolor sit.</h4>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <a href="#" class="btn btn-load-more">load more project</a>
+        </div> -->
+    </section>
+
+    <!-- END PORTFOLIO SECTION -->
+    <!--  START Testimonial Section -->
+
+    <section class="testimonial-section">
+        <div class="row">
+            <h2 data-aos="zoom-in">What People Say about us</h2>
+            <p class="discription" data-aos="zoom-in-up">Lorem ipsum dolor, sit amet consectetur adipisicing el.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_2 box" data-aos="fade-right">
+                <div class="photo">
+                    <img src="resources/img/test.jpg" alt="" >
+                </div>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo architecto, illum maiores laudantium magnam soluta deleniti quos.</p>
+                    <h3>Lorem ipsum dolor</h3>
+                    <span class="role">CEO</span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box" data-aos="fade-left">
+                <div class="photo">
+                    <img src="resources/img/test.jpg" alt="" >
+                </div>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo architecto, illum maiores laudantium magnam soluta deleniti quos.</p>
+                    <h3>Lorem ipsum dolor</h3>
+                    <span class="role">CEO</span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box" data-aos="fade-right">
+                <div class="photo">
+                    <img src="resources/img/test.jpg" alt="" >
+                </div>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo architecto, illum maiores laudantium magnam soluta deleniti quos.</p>
+                    <h3>Lorem ipsum dolor</h3>
+                    <span class="role">CEO</span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box" data-aos="fade-left">
+                <div class="photo">
+                    <img src="resources/img/test.jpg" alt="" >
+                </div>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo architecto, illum maiores laudantium magnam soluta deleniti quos.</p>
+                    <h3>Lorem ipsum dolor</h3>
+                    <span class="role">CEO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END TESTIMONIAL SECTION -->
+
+
+<!-- START CONTACT SECTION -->
+
+    <section class="contact-section" id="contact">
+        <div class="row">
+            <h2 data-aos="zoom-in">contact us</h2>
+            <p class="discription" data-aos="zoom-in-up">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="row">
+            <form action="" method="POST">
+                <div class="row">
+                    <div class="col span_1_of_2" data-aos="fade-right">
+                        <input type="text" name="Name" placeholder="Your Name*" required>
+                    </div>
+                    <div class="col span_1_of_2" data-aos="fade-left">
+                        <input type="email" name="Email" placeholder="Your Email*" required>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up">
+                    <textarea name="Message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                </div>
+                <div class="row" data-aos="zoom-out-up">
+                    <input type="submit" value="Send Message" class="btn btn-submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+<!-- END CONTACT SECTION -->
+
+<!-- START FOOTER SECTION -->
+    <footer class="footer-section">
+        <div class="row">
+            <h4>desing by: <span style="color: #ff44bd;">towker Ahmmed Joy</span></h4>
+            <div class="footer-link">
+                <a href="https://www.facebook.com/profile.php?id=100024901024152" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/towker_joy" target="_blank">instagram</a>
+                <a href="https://www.fiverr.com/towker_joy" target="_blank">fiverr</a>
+                <a href="upwork.com/freelancers/~01daa9a1a4749228cb" target="_blank">upwork</a>
+            </div>
+        </div>
+    </footer>
+<!-- END FOOTER SECTION -->
+
+    <!-- JS FILE -->
+    <!-- ======= -->
+    <!-- VANDORS FILE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="vandors/js/selectivizr.min.js"></script>
+    <script src="vandors/js/respond.min.js"></script>
+    <script src="vandors/js/html5 shiv.min.js"></script>
+    <script src="vandors/js/mixitup.min.js"></script>
+    <script src="vandors/js/jquery.waypoints.min.js"></script>
+    <!-- FOR ICON / FONT FILE (https://ionicons.com/) -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="vandors/js/animated skill.js"></script>
+    <script src="resources/js/main.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+</html>
