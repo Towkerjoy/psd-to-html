@@ -181,6 +181,7 @@ header{
     margin-top: 2rem;
     cursor: pointer;
     display: none;
+    z-index: 1;
 }
 /* overlay */
 .overlay{
